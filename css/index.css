@@ -1,0 +1,427 @@
+body {
+  background-color: rgb(210, 255, 252);
+  font: 400 1.125em/1.38 Arial;
+  color: rgb(0, 0, 0);
+}
+
+.element {
+  float: left;
+  background-color: rgb(222, 222, 222);
+}
+
+.text {
+  float: left;
+}
+
+.text-2 p,
+.text-5 p {
+  margin-bottom: 1em;
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  height: 79px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 14px;
+  background-color: rgb(255, 220, 84);
+  box-shadow: 0 -2px 5px 3px rgba(0, 0, 0, .5), 1px 2px 5px rgba(0, 0, 0, .5);
+  font-size: 1.389em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button:hover {
+  box-shadow: 0 -2px 5px 3px rgba(0, 0, 0, .5), 1px 2px 5px rgba(0, 0, 0, .5);
+}
+
+._button:active {
+  box-shadow: 1px -2px 5px rgba(0, 0, 0, .5) inset, -2px 1px 5px rgba(0, 0, 0, .5) inset, 0 -2px 5px rgba(0, 0, 0, .5), 1px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.container-1 {
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+.container-10 {
+  width: 100%;
+  height: 674px;
+  margin: 90px auto 0;
+}
+
+.container-11 {
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 134px;
+  margin: 43px auto 0;
+  background-color: rgb(77, 163, 192);
+}
+
+.container-2 {
+  width: 800px;
+  min-width: 800px;
+  max-width: 800px;
+  height: 3240px;
+  margin: 12px auto 0;
+}
+
+.container-3 {
+  float: left;
+  width: 100.127388535%;
+  height: 379px;
+  margin-left: 1.14258%;
+}
+
+.container-4 {
+  float: left;
+  width: 58.0152671755%;
+  height: 356px;
+  margin: -226px 0 0 3.70038%;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-5 {
+  float: left;
+  clear: both;
+  width: 101.9108280254%;
+  height: 762px;
+  margin: 154px 0 0 -0.62891%;
+}
+
+.container-6 {
+  width: 100%;
+  height: 1042px;
+  margin: 1366px auto 0;
+}
+
+.container-7 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 6;
+  width: 46.5%;
+  height: 457px;
+  margin: 30px 0 0 1.74219%;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-8 {
+  position: relative;
+  float: left;
+  z-index: 10;
+  width: 46.5%;
+  height: 457px;
+  margin: 30px 0 0 4.24219%;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-9 {
+  float: left;
+  clear: both;
+  width: 46.5%;
+  height: 457px;
+  margin: 19px 0 0 28.79297%;
+  background-color: rgb(255, 255, 255);
+}
+
+.element-1 {
+  position: relative;
+  z-index: 33;
+  width: 100%;
+  height: 280px;
+  background-image: url('../images/1@2400w.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.element-2 {
+  width: 290px;
+  height: 290px;
+  margin: 16px 0 0 9.3918%;
+  border-radius: 26px;
+  background-image: url('../images/cff69d50445207.58d0e78f68db5.jpg');
+  background-repeat: no-repeat;
+  background-size: 290px 290px;
+  background-position: 1px 0px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, .5), -2px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.element-3 {
+  width: 290px;
+  height: 290px;
+  margin: 16px 0 0 9.417%;
+  border-radius: 26px;
+  background-image: url('../images/421c1c5cb0f895acc58441cd1884982a.png'), url('../images/cff69d50445207.58d0e78f68db5.jpg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, 290px 290px;
+  background-position: left top, 1px 0px;
+  background-attachment: scroll, scroll;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, .5), -2px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.element-4 {
+  width: 290px;
+  height: 290px;
+  margin: 16px 0 0 9.4086%;
+  border-radius: 26px;
+  background-image: url('../images/konstr3.jpg');
+  background-size: cover;
+  background-position: left top;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, .5), -2px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.text-1 {
+  position: relative;
+  clear: both;
+  z-index: 34;
+  width: 61.25%;
+  min-height: 101px;
+  margin: -195px 0 0 22.79688%;
+  padding: 13px;
+  background-color: rgba(3, 3, 3, 0.77);
+  font-family: Helvetica;
+  font-size: 2.778em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.text-10 {
+  width: 100%;
+  min-height: 61px;
+  margin-top: -8px;
+  padding-top: 7px;
+  padding-left: 324px;
+  background-color: rgb(77, 163, 192);
+  font-size: 1.944em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.text-11 {
+  position: relative;
+  clear: both;
+  z-index: 27;
+  width: 44.07421875%;
+  min-height: 66px;
+  margin: 37px 0 0 2.49219%;
+  padding: 9px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.111em;
+  color: rgb(0, 0, 0);
+}
+
+.text-12 {
+  position: relative;
+  clear: both;
+  z-index: 28;
+  width: 44.07421875%;
+  min-height: 66px;
+  margin: 19px 0 0 2.49219%;
+  padding: 9px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.111em;
+  color: rgb(0, 0, 0);
+}
+
+.text-13 {
+  position: relative;
+  clear: both;
+  z-index: 30;
+  width: 44.07421875%;
+  min-height: 66px;
+  margin: 10px 0 0 2.49219%;
+  padding: 9px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.111em;
+  color: rgb(0, 0, 0);
+}
+
+.text-14 {
+  position: relative;
+  z-index: 29;
+  width: 44.07421875%;
+  min-height: 66px;
+  margin: -151px 0 0 5.17969%;
+  padding: 9px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.111em;
+  color: rgb(0, 0, 0);
+}
+
+.text-15 {
+  width: 96.7333123425%;
+  min-height: 52px;
+  margin: 40px 0 0 30.24805%;
+  font-size: 1.556em;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  position: relative;
+  z-index: 20;
+  width: 109.8684210526%;
+  min-height: 252px;
+  margin: 45px 0 0 2.4478%;
+  padding: 31px;
+  font-size: 1.556em;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.text-3 {
+  position: relative;
+  clear: both;
+  z-index: 19;
+  width: 76.817558299%;
+  min-height: 72px;
+  margin: -342px 0 0 17.18167%;
+  font-size: 2.778em;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.text-4 {
+  width: 100%;
+  min-height: 61px;
+  padding-top: 7px;
+  padding-left: 324px;
+  background-color: rgb(77, 163, 192);
+  font-size: 1.944em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.text-5 {
+  clear: both;
+  width: 91.375%;
+  min-height: 442px;
+  margin: 14px 0 0 3.87328%;
+  padding: 13px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text-6 {
+  width: 100%;
+  min-height: 61px;
+  padding-top: 7px;
+  background-color: rgb(77, 163, 192);
+  font-size: 1.944em;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-7 {
+  position: relative;
+  clear: both;
+  z-index: 4;
+  width: 83.064516129%;
+  min-height: 60px;
+  margin: 14px 0 0 9.3918%;
+  font-size: 1.556em;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.text-8 {
+  position: relative;
+  clear: both;
+  z-index: 8;
+  width: 90.3225806451%;
+  min-height: 60px;
+  margin: 13px 0 0 9.417%;
+  font-size: 1.556em;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.text-9 {
+  position: relative;
+  clear: both;
+  z-index: 12;
+  width: 90.5913978494%;
+  min-height: 60px;
+  margin: 12px 0 0 7.96791%;
+  font-size: 1.556em;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.container ._button-1 {
+  z-index: 22;
+  width: 34.0450063613%;
+  margin: 29px 0 0 2.03258%;
+}
+
+.container ._button-2 {
+  clear: both;
+  z-index: 23;
+  width: 34.0450063613%;
+  margin: 45px 0 0 2.03258%;
+}
+
+.container ._button-3 {
+  clear: both;
+  z-index: 24;
+  width: 34.0450063613%;
+  margin: 40px 0 0 2.03258%;
+}
+
+.container ._button-4 {
+  clear: both;
+  z-index: 5;
+  width: 71.9338037634%;
+  margin: -16px 0 0 12.94103%;
+}
+
+.container ._button-5 {
+  clear: both;
+  z-index: 9;
+  width: 71.9338037634%;
+  margin: -15px 0 0 12.14718%;
+}
+
+.container ._button-6 {
+  clear: both;
+  z-index: 13;
+  width: 71.9338037634%;
+  margin: -12px 0 0 13.28965%;
+}
+
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 1.607em;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
